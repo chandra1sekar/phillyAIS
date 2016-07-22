@@ -431,6 +431,8 @@ class AddressTag(db.Model):
     street_address = db.Column(db.Text)
     key = db.Column(db.Text)
     value = db.Column(db.Text)
+    linked = db.Column(db.Boolean)
+    linked_address = db.Column(db.Text)
 
 class SourceAddress(db.Model):
     id = db.Column(db.Integer, primary_key=True)
