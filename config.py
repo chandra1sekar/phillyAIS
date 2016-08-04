@@ -1,4 +1,4 @@
-"""Default config values."""
+"""Default config values. test"""
 
 DEBUG = False
 
